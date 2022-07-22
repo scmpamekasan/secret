@@ -11,14 +11,14 @@ db_password = "12345"
 # The contents of sections as shown below will not become environment variables,
 # but they'll be easily accessible from within Streamlit anyway as we show
 # later in this doc.
-[my_cool_secrets]
-things_i_like = ["Streamlit", "Python"]
+###[my_cool_secrets]
+###things_i_like = ["Streamlit", "Python"]
 
 # Everything is accessible via the st.secrets dict:
 
 st.write("DB username:", st.secrets["db_username"])
 st.write("DB password:", st.secrets["db_password"])
-st.write("My cool secrets:", st.secrets["my_cool_secrets"]["things_i_like"])
+###st.write("My cool secrets:", st.secrets["my_cool_secrets"]["things_i_like"])
 
 # And the root-level secrets are also accessible as environment variables:
 
