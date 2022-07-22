@@ -4,8 +4,6 @@ import os
 
 
 # Everything in this section will be available as an environment variable
-db_username = "Pamekasan"
-db_password = "12345"
 
 # You can also add other sections if you like.
 # The contents of sections as shown below will not become environment variables,
