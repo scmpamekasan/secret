@@ -12,9 +12,9 @@ import os
 
 # Everything is accessible via the st.secrets dict:
 
-
+st.secrets["username"]
 # Verbose version
-my_db.connect(username=st.secrets.db_credentials.username, password=st.secrets.db_credentials.password)
+#my_db.connect(username=st.secrets.db_credentials.username, password=st.secrets.db_credentials.password)
 
 # Far more compact version!
-my_db.connect(**st.secrets.db_credentials)
+#my_db.connect(**st.secrets.db_credentials)
