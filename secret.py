@@ -11,8 +11,6 @@ db_password = "12345"
 # The contents of sections as shown below will not become environment variables,
 # but they'll be easily accessible from within Streamlit anyway as we show
 # later in this doc.
-[my_cool_secrets]
-things_i_like = ["Streamlit", "Python"]
 
 # Everything is accessible via the st.secrets dict:
 
