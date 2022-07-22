@@ -12,7 +12,7 @@ import os
 
 # Everything is accessible via the st.secrets dict:
 
-st.secrets["username"]
+st.secrets["db_credentials"]
 # Verbose version
 #my_db.connect(username=st.secrets.db_credentials.username, password=st.secrets.db_credentials.password)
 
