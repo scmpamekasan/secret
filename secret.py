@@ -26,4 +26,4 @@ st.write(
 # Verbose version
 
 # Far more compact version!
-st.write(**st.secrets.db_credentials)
+my_db.connect(**st.secrets.db_credentials)
